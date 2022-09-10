@@ -1,0 +1,43 @@
+body{
+  height: 800px;
+  display: flex;
+ }
+
+ .side-bar{
+  width: 280px;
+  background: lightgray;
+ }
+
+ .main{
+  width: 1200px;
+ }
+
+ .main-header{
+  height: 120px;
+  background-color: lightblue;
+ }
+
+ .main-content{
+  height: 680px;
+  background-color:lightpink;
+ }
+
+ .messages{
+  padding: 32px;
+ }
+
+ .message{
+  padding: 20px 40px;
+  border: 1px solid white;
+  margin-bottom: 28px;
+ }
+
+ .message-name{
+  margin-bottom: 10px;
+  font-size: 16px;
+ }
+
+ .message-body{
+  margin-bottom: 10px;
+  font-size: 24px;
+ }
