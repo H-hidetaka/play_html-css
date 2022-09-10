@@ -1,0 +1,39 @@
+
+/* ボディ編集 */
+body {
+  font-family: "Avenir Next";
+}
+
+/* リスト編集 */
+li {
+  list-style: none;
+  /* 縦に並んでいるものを、横ならび左寄せにする*/
+  float: left;
+}
+
+/* ボディ内ヘッダー編集 */
+.header {
+  background-color: #b8b25d;
+  height: 90px;
+}
+
+/* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
+.header-logo {
+  font-size: 36px;
+  float:left;
+}
+
+.main {
+  background-color: #11d1bd;
+  height: 600px;
+}
+
+.contact {
+  background-color: #ceccf3;
+  height: 270px
+}
+
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
+}
